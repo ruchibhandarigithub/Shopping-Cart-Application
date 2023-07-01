@@ -67,7 +67,7 @@ function showItems(Arr){
    pDiv.classList.add("row");
    let ppDiv = document.createElement("div");
    ppDiv.classList.add("price");
-   ppDiv.textContent=ele.price;
+   ppDiv.textContent=`Price: ${ele.price}`;
    pDiv.append(ppDiv);
    infoDiv.append(pDiv);
    let ratingDiv = document.createElement("div");
